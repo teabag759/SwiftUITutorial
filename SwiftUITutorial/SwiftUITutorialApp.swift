@@ -11,7 +11,14 @@ import SwiftUI
 struct SwiftUITutorialApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack{
+                NavigationLink("HelloSwiftUI") {
+                    HelloSwiftUI()
+                }
+                NavigationLink("CustomizeViews_WeatherForecast") {
+                    CustomizeViews_WeatherForecast()
+                }
+            }
         }
     }
 }
