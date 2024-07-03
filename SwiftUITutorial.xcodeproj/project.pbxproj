@@ -12,6 +12,12 @@
 		937526012C32D09F0000BB13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 937526002C32D09F0000BB13 /* Assets.xcassets */; };
 		937526042C32D09F0000BB13 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 937526032C32D09F0000BB13 /* Preview Assets.xcassets */; };
 		9375260B2C3452100000BB13 /* CustomizeViews_WeatherForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9375260A2C3452100000BB13 /* CustomizeViews_WeatherForecast.swift */; };
+		9375260F2C3540690000BB13 /* AboutMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9375260E2C3540690000BB13 /* AboutMe.swift */; };
+		937526122C3540B80000BB13 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937526112C3540B80000BB13 /* Data.swift */; };
+		937526142C3541490000BB13 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937526132C3541490000BB13 /* HomeView.swift */; };
+		937526162C3542570000BB13 /* StoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937526152C3542570000BB13 /* StoryView.swift */; };
+		937526182C3542B30000BB13 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937526172C3542B30000BB13 /* FavoritesView.swift */; };
+		9375261A2C35445A0000BB13 /* FunFactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937526192C35445A0000BB13 /* FunFactsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +27,12 @@
 		937526002C32D09F0000BB13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		937526032C32D09F0000BB13 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9375260A2C3452100000BB13 /* CustomizeViews_WeatherForecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeViews_WeatherForecast.swift; sourceTree = "<group>"; };
+		9375260E2C3540690000BB13 /* AboutMe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMe.swift; sourceTree = "<group>"; };
+		937526112C3540B80000BB13 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		937526132C3541490000BB13 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		937526152C3542570000BB13 /* StoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryView.swift; sourceTree = "<group>"; };
+		937526172C3542B30000BB13 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		937526192C35445A0000BB13 /* FunFactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFactsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,7 @@
 		937525FB2C32D09D0000BB13 /* SwiftUITutorial */ = {
 			isa = PBXGroup;
 			children = (
+				9375260D2C3540590000BB13 /* SampleApps */,
 				937525FC2C32D09D0000BB13 /* SwiftUITutorialApp.swift */,
 				937525FE2C32D09D0000BB13 /* HelloSwiftUI.swift */,
 				9375260A2C3452100000BB13 /* CustomizeViews_WeatherForecast.swift */,
@@ -68,6 +81,27 @@
 				937526032C32D09F0000BB13 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9375260D2C3540590000BB13 /* SampleApps */ = {
+			isa = PBXGroup;
+			children = (
+				937526102C3540A70000BB13 /* AboutMe */,
+			);
+			path = SampleApps;
+			sourceTree = "<group>";
+		};
+		937526102C3540A70000BB13 /* AboutMe */ = {
+			isa = PBXGroup;
+			children = (
+				9375260E2C3540690000BB13 /* AboutMe.swift */,
+				937526112C3540B80000BB13 /* Data.swift */,
+				937526132C3541490000BB13 /* HomeView.swift */,
+				937526152C3542570000BB13 /* StoryView.swift */,
+				937526172C3542B30000BB13 /* FavoritesView.swift */,
+				937526192C35445A0000BB13 /* FunFactsView.swift */,
+			);
+			path = AboutMe;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,8 +175,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				9375260B2C3452100000BB13 /* CustomizeViews_WeatherForecast.swift in Sources */,
+				937526122C3540B80000BB13 /* Data.swift in Sources */,
+				9375260F2C3540690000BB13 /* AboutMe.swift in Sources */,
+				937526162C3542570000BB13 /* StoryView.swift in Sources */,
+				937526182C3542B30000BB13 /* FavoritesView.swift in Sources */,
+				937526142C3541490000BB13 /* HomeView.swift in Sources */,
 				937525FF2C32D09D0000BB13 /* HelloSwiftUI.swift in Sources */,
 				937525FD2C32D09D0000BB13 /* SwiftUITutorialApp.swift in Sources */,
+				9375261A2C35445A0000BB13 /* FunFactsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

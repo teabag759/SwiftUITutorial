@@ -12,11 +12,17 @@ struct SwiftUITutorialApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationStack{
+                
                 NavigationLink("HelloSwiftUI") {
                     HelloSwiftUI()
                 }
+                
                 NavigationLink("CustomizeViews_WeatherForecast") {
                     CustomizeViews_WeatherForecast()
+                }
+                
+                NavigationLink("AboutMe") {
+                    AboutMe()
                 }
             }
         }
