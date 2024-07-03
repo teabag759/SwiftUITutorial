@@ -9,11 +9,24 @@ import SwiftUI
 
 struct CustomizeViews_WeatherForecast: View {
     var body: some View {
-        HStack {
-            DayForecast(day: "Mon", isRainy: false, high: 70, low: 50)
-                .padding()
-            
-            DayForecast(day: "Tue", isRainy: true, high: 60, low: 40)
+        // ScrollView 추가
+        ScrollView(.horizontal) {
+            HStack {
+                DayForecast(day: "Mon", isRainy: false, high: 70, low: 50)
+                
+                DayForecast(day: "Tue", isRainy: true, high: 60, low: 40)
+                
+                // Add more days
+                DayForecast(day: "Wed", isRainy: true, high: 50, low: 40)
+                
+                DayForecast(day: "Thur", isRainy: false, high: 75, low: 50)
+                
+                DayForecast(day: "Fri", isRainy: true, high: 40, low: 20)
+                
+                DayForecast(day: "Sat", isRainy: false, high: 60, low: 40)
+                
+                DayForecast(day: "Sun", isRainy: true, high: 40, low: 10)
+            }
         }
     }
 }
@@ -22,7 +35,7 @@ struct CustomizeViews_WeatherForecast: View {
     CustomizeViews_WeatherForecast()
 }
 
-
+// Continue Practicing
 struct DayForecast: View {
     
     let day: String
@@ -47,6 +60,24 @@ struct DayForecast: View {
     }
     
     
+    // high, low의 온도에 따른 색 변화
+    var highFontColor: Color {
+        if high >= 70 {
+            return Color.red
+        } else {
+            return Color.primary
+        }
+    }
+    
+    var lowFontColor: Color {
+        if low <= 30 {
+            return Color.blue
+        } else {
+            return Color.primary
+        }
+
+    }
+    
     var body: some View {
         VStack {
             Text(day)
@@ -56,9 +87,11 @@ struct DayForecast: View {
                 .padding()
             Text("High: \(high)")
                 .fontWeight(.semibold)
+                .foregroundStyle(highFontColor)
             Text("Low: \(low)")
-                .fontWeight(.medium)
-                .foregroundStyle(.secondary)
+                .fontWeight(.semibold)
+                .foregroundStyle(lowFontColor)
         }
+        .padding(5)
     }
 }
