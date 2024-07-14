@@ -24,6 +24,10 @@ struct SwiftUITutorialApp: App {
                 NavigationLink("AboutMe") {
                     AboutMe()
                 }
+                
+                NavigationLink("OnboardingFlow") {
+                    WelcomeToMyApp()
+                }
             }
         }
     }

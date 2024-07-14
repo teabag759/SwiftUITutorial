@@ -18,6 +18,12 @@
 		937526162C3542570000BB13 /* StoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937526152C3542570000BB13 /* StoryView.swift */; };
 		937526182C3542B30000BB13 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937526172C3542B30000BB13 /* FavoritesView.swift */; };
 		9375261A2C35445A0000BB13 /* FunFactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937526192C35445A0000BB13 /* FunFactsView.swift */; };
+		9375261D2C3548AA0000BB13 /* WelcomeToMyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9375261C2C3548AA0000BB13 /* WelcomeToMyApp.swift */; };
+		9375266E2C43725E0000BB13 /* FeaturesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9375266D2C43725E0000BB13 /* FeaturesPage.swift */; };
+		937526702C4372DA0000BB13 /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9375266F2C4372DA0000BB13 /* FeatureCard.swift */; };
+		937526722C4376110000BB13 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937526712C4376110000BB13 /* MainView.swift */; };
+		937526742C43E6620000BB13 /* GuidingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937526732C43E6610000BB13 /* GuidingPage.swift */; };
+		937526762C43E6B60000BB13 /* GuidingCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937526752C43E6B60000BB13 /* GuidingCircle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +39,12 @@
 		937526152C3542570000BB13 /* StoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryView.swift; sourceTree = "<group>"; };
 		937526172C3542B30000BB13 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
 		937526192C35445A0000BB13 /* FunFactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFactsView.swift; sourceTree = "<group>"; };
+		9375261C2C3548AA0000BB13 /* WelcomeToMyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeToMyApp.swift; sourceTree = "<group>"; };
+		9375266D2C43725E0000BB13 /* FeaturesPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesPage.swift; sourceTree = "<group>"; };
+		9375266F2C4372DA0000BB13 /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
+		937526712C4376110000BB13 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		937526732C43E6610000BB13 /* GuidingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidingPage.swift; sourceTree = "<group>"; };
+		937526752C43E6B60000BB13 /* GuidingCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidingCircle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +77,7 @@
 		937525FB2C32D09D0000BB13 /* SwiftUITutorial */ = {
 			isa = PBXGroup;
 			children = (
+				9375261B2C35488C0000BB13 /* DesignForInterface_OnboardingFlow */,
 				9375260D2C3540590000BB13 /* SampleApps */,
 				937525FC2C32D09D0000BB13 /* SwiftUITutorialApp.swift */,
 				937525FE2C32D09D0000BB13 /* HelloSwiftUI.swift */,
@@ -102,6 +115,19 @@
 				937526192C35445A0000BB13 /* FunFactsView.swift */,
 			);
 			path = AboutMe;
+			sourceTree = "<group>";
+		};
+		9375261B2C35488C0000BB13 /* DesignForInterface_OnboardingFlow */ = {
+			isa = PBXGroup;
+			children = (
+				9375261C2C3548AA0000BB13 /* WelcomeToMyApp.swift */,
+				9375266D2C43725E0000BB13 /* FeaturesPage.swift */,
+				9375266F2C4372DA0000BB13 /* FeatureCard.swift */,
+				937526712C4376110000BB13 /* MainView.swift */,
+				937526732C43E6610000BB13 /* GuidingPage.swift */,
+				937526752C43E6B60000BB13 /* GuidingCircle.swift */,
+			);
+			path = DesignForInterface_OnboardingFlow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,13 +201,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				9375260B2C3452100000BB13 /* CustomizeViews_WeatherForecast.swift in Sources */,
+				937526762C43E6B60000BB13 /* GuidingCircle.swift in Sources */,
+				937526722C4376110000BB13 /* MainView.swift in Sources */,
 				937526122C3540B80000BB13 /* Data.swift in Sources */,
 				9375260F2C3540690000BB13 /* AboutMe.swift in Sources */,
+				9375261D2C3548AA0000BB13 /* WelcomeToMyApp.swift in Sources */,
+				9375266E2C43725E0000BB13 /* FeaturesPage.swift in Sources */,
 				937526162C3542570000BB13 /* StoryView.swift in Sources */,
 				937526182C3542B30000BB13 /* FavoritesView.swift in Sources */,
 				937526142C3541490000BB13 /* HomeView.swift in Sources */,
 				937525FF2C32D09D0000BB13 /* HelloSwiftUI.swift in Sources */,
+				937526742C43E6620000BB13 /* GuidingPage.swift in Sources */,
 				937525FD2C32D09D0000BB13 /* SwiftUITutorialApp.swift in Sources */,
+				937526702C4372DA0000BB13 /* FeatureCard.swift in Sources */,
 				9375261A2C35445A0000BB13 /* FunFactsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
